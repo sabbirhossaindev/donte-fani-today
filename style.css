@@ -1,0 +1,59 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* no class use just html tag start  */
+h1 {
+  font-size: 45px;
+  color: #fff;
+  font-weight: 700;
+}
+small {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+/* no class use just html tag end  */
+.first-donate-section {
+  background-image: url(images/sec.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.donate-first-div {
+  text-align: center;
+  padding: 5%;
+}
+.donate-btn {
+  padding: 10px 20px;
+  background-color: #f01d47;
+  border: none;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.donate-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+/* first section end  */
+/* sec section start  */
+.donate-take-fani {
+  text-align: center;
+}
+.donate-main-div-flex-tk {
+  display: flex;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.donate-tk {
+  background-color: #eee7e8;
+  border-radius: 3px;
+  height: 50px;
+  width: 172px;
+  text-align: center;
+  padding-top: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* sec section end  */
