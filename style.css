@@ -14,6 +14,12 @@ small {
   font-weight: 400;
   color: #fff;
 }
+hr {
+  width: 540px;
+}
+p {
+  color: gray;
+}
 /* no class use just html tag end  */
 .first-donate-section {
   background-image: url(images/sec.png);
@@ -45,15 +51,107 @@ small {
   text-align: center;
   margin-left: 30%;
   margin-right: 30%;
+  margin-bottom: 20px;
 }
 .donate-tk {
   background-color: #eee7e8;
   border-radius: 3px;
-  height: 50px;
+  height: 48px;
   width: 172px;
   text-align: center;
   padding-top: 12px;
   margin-left: 10px;
   margin-right: 10px;
+  margin-top: 10px;
+  padding-left: 7px;
+}
+.donate-tk a {
+  text-decoration: none;
+  color: #706f6e;
+  font-weight: 600;
+}
+.donate-tk-red {
+  background-color: #f1b9b9;
+  border: 2px solid #dc143c;
+  border-radius: 3px;
+  height: 48px;
+  width: 172px;
+  text-align: center;
+  padding-top: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding-left: 7px;
+}
+.donate-tk-red a {
+  text-decoration: none;
+  color: #f01d4b;
+  font-weight: 600;
+}
+.donate-amount-div {
+  text-align: center;
+  color: gray;
+}
+.other-amount {
+  text-decoration: none;
+  color: gray;
+  border: 0px;
+  outline: none;
+  height: 25px;
+}
+.first-donate-btn {
+  padding: 10px 20px;
+  background-color: #f01d47;
+  border: none;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.first-donate-btn a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
 }
 /* sec section end  */
+/* third section start  */
+.third-planing-container {
+  margin-top: 40px;
+  padding: 5%;
+}
+.plan-list-one {
+  text-align: center;
+}
+.donate-planing-parent {
+  display: flex;
+  padding-left: 5%;
+}
+.donate-list-one {
+  text-align: left;
+  background-color: #ddfaf7;
+  border-radius: 5px;
+  padding-left: 2%;
+  margin-right: 3%;
+  height: 350px;
+  margin-bottom: 100px;
+}
+.donate-list-two {
+  text-align: left;
+  background-color: #f1b9b9;
+  border-radius: 5px;
+  padding-left: 2%;
+  margin-right: 3%;
+  height: 350px;
+  margin-bottom: 100px;
+}
+.donate-list-three {
+  text-align: left;
+  background-color: #ecf19e;
+  border-radius: 5px;
+  padding-left: 2%;
+  margin-right: 3%;
+  height: 350px;
+  margin-bottom: 100px;
+}
+.plan-food-family {
+  margin-top: 60px;
+}
+/* third section end  */
