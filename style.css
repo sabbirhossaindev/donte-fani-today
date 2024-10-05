@@ -20,6 +20,11 @@ hr {
 p {
   color: gray;
 }
+h2 {
+  font-size: 35px;
+  font-weight: 700;
+  font-style: normal;
+}
 /* no class use just html tag end  */
 .first-donate-section {
   background-image: url(images/sec.png);
@@ -131,7 +136,7 @@ p {
   padding-left: 2%;
   margin-right: 3%;
   height: 350px;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 .donate-list-two {
   text-align: left;
@@ -140,7 +145,7 @@ p {
   padding-left: 2%;
   margin-right: 3%;
   height: 350px;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 .donate-list-three {
   text-align: left;
@@ -149,9 +154,94 @@ p {
   padding-left: 2%;
   margin-right: 3%;
   height: 350px;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 .plan-food-family {
   margin-top: 60px;
 }
 /* third section end  */
+/* forth section start  */
+.folooded-sylhet-container {
+  text-align: center;
+}
+.flooded-flex-container {
+  display: flex;
+  padding: 5%;
+}
+.flooed-place {
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 15px;
+  box-shadow: 4px 4px 8px gray;
+  border-radius: 15px;
+}
+.flooed-place img {
+  border-radius: 15px;
+  margin-left: 2%;
+}
+.flooed-place h3 {
+  color: #dc143c;
+}
+.flooded-flex-container-two {
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+.flooed-place-two {
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 15px;
+  box-shadow: 4px 4px 8px gray;
+  border-radius: 15px;
+}
+.flooed-place-two img {
+  border-radius: 15px;
+  margin-left: 2%;
+}
+.flooed-place-two h3 {
+  color: #dc143c;
+}
+/* forth section end  */
+/* footer section start  */
+.updates-container {
+  text-align: center;
+}
+.updates-container form {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.update-form {
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: #ecf19e;
+  height: 140px;
+  width: 380px;
+  margin-left: 18%;
+  border-radius: 3px;
+}
+.email-input {
+  margin-top: 60px;
+  height: 30px;
+  width: 250px;
+  border: none;
+  outline: none;
+  background-color: #bbb8b5;
+  color: #030303;
+  font-weight: bold;
+}
+.subscribe-btn {
+  background-color: #dc143c;
+  color: #ddfaf7;
+  border: none;
+  border-radius: 2px;
+  font-weight: 600;
+  width: 100px;
+  height: 32px;
+  margin-left: -5px;
+}
+.subscribe-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+/* footer section end  */
